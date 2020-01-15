@@ -195,6 +195,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NameString: 
+  intNum: 0
+  floatNum: 0
+  gameObj: {fileID: 0}
 --- !u!1 &257067503
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,6 +231,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NameString: Phil
+  intNum: 0
+  floatNum: 0
+  gameObj: {fileID: 534669902}
 --- !u!65 &257067505
 BoxCollider:
   m_ObjectHideFlags: 0
