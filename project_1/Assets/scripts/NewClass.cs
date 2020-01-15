@@ -9,13 +9,7 @@ public class NewClass : MonoBehaviour
     {
         print(message:"hello world");
     }
-public class NewClass : MonoBehaviour
-{
-    private void Start()
-    {
-        print("AAAAAAAA HELP ME");
-    }
-    }
+
     // Update is called once per frame
     void Update()
     {
