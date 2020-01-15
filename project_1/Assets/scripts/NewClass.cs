@@ -5,14 +5,11 @@ using UnityEngine;
 public class NewClass : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
-    {
-        print(message:"hello world");
-    }
+    
+    public string NameString;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        print( NameString);
     }
 }
