@@ -1,15 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.Events;
 
 public class PracticeScript : MonoBehaviour
 { 
-    private int HealthValue;
-    public float HealthScore;
-    
+    private float HealthValue;
+    public int HealthScore;
+    public UnityEvent uEvent;
+
     // Start is called before the first frame update
     void Start()
     {
+        uEvent.Invoke();
+        //invoke means call
 
    print(HealthValue);
    print(HealthScore);
