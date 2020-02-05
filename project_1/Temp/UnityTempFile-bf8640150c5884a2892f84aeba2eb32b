@@ -300,3 +300,4 @@
 /define:CSHARP_7_3_OR_NEWER
 "Assets/scripts/NewClass.cs"
 "Assets/scripts/PracticeScript.cs"
+"Assets/scripts/TriggeringEvents.cs"
