@@ -298,6 +298,9 @@
 /define:UNITY_TEAM_LICENSE
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
+"Assets/scripts/CharacterMover.cs"
+"Assets/scripts/colorChange.cs"
+"Assets/scripts/MouseEvents.cs"
 "Assets/scripts/NewClass.cs"
 "Assets/scripts/PracticeScript.cs"
 "Assets/scripts/TriggeringEvents.cs"
