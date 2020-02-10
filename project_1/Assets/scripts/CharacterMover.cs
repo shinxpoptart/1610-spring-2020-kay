@@ -26,7 +26,8 @@ public class CharacterMover : MonoBehaviour
             jumpCount = 0;
         }
         controller.Move(positionDirection*Time.deltaTime);
-        positionDirection.x = Input.GetAxis("Horizontal")*speed;
+        positionDirection.x = Input.GetAxis("Vertical")*speed;
+        positionDirection.z = Input.GetAxis("Horizontal")*-speed;
 
         if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
         {
