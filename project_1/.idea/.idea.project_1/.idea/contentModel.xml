@@ -14,6 +14,7 @@
           <e p="NewClass.cs" t="Include" />
           <e p="PracticeScript.cs" t="Include" />
           <e p="rigidBodyForces.cs" t="Include" />
+          <e p="springController.cs" t="Include" />
           <e p="SpriteController.cs" t="Include" />
           <e p="TriggeringEvents.cs" t="Include" />
         </e>
