@@ -13,6 +13,10 @@ public class TrailController : MonoBehaviour
         trailObj.startColor = Color.cyan;
         trailObj.startWidth = 1f;
         trailObj.endWidth = 0.1f;
+        trailObj.time = 1f;
+        trailObj.alignment = LineAlignment.View;
+        trailObj.autodestruct = false;
+        trailObj.textureMode = LineTextureMode.Stretch;
 
     }
 
