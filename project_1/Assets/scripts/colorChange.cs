@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEditor.Rendering;
 using UnityEngine;
-[RequireComponent(typeof(MeshRenderer))]
+
 public class colorChange : MonoBehaviour
 
 {
@@ -11,8 +11,7 @@ public class colorChange : MonoBehaviour
     // using tutorial https://youtu.be/Z0Z7xc18CcA
     void Start()
     {
-        cubeColor = GetComponent<Renderer>();
-        cubeColor.material = startShader;
+
 
 
     }

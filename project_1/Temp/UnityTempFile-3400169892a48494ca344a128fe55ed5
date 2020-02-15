@@ -307,5 +307,7 @@
 "Assets/scripts/NewClass.cs"
 "Assets/scripts/PracticeScript.cs"
 "Assets/scripts/rigidBodyForces.cs"
+"Assets/scripts/springController.cs"
 "Assets/scripts/SpriteController.cs"
+"Assets/scripts/TrailController.cs"
 "Assets/scripts/TriggeringEvents.cs"
