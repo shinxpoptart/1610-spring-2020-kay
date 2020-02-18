@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class CollidersScript2 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    //tutorial: https://www.youtube.com/watch?v=bh9ArKrPY8w
+
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        Debug.Log("Entering...");
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionStay(Collision collision)
     {
-        
+        Debug.Log("staying...");
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        Debug.Log("Exiting...");   
     }
 }
