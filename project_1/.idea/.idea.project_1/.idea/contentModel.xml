@@ -10,7 +10,10 @@
           <e p="colliderScript.cs" t="Include" />
           <e p="CollidersScript2.cs" t="Include" />
           <e p="colorChange.cs" t="Include" />
+          <e p="floatData.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
+          <e p="ImageBehavior.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
           <e p="lightController.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="NewClass.cs" t="Include" />
