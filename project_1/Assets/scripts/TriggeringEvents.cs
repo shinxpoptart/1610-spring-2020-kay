@@ -13,9 +13,9 @@ public class TriggeringEvents : MonoBehaviour
     public UnityEvent stay;
     public UnityEvent exit;
 
-    public void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-enter.Invoke();
+    enter.Invoke();
     }
 
     private void OnTriggerStay(Collider other)

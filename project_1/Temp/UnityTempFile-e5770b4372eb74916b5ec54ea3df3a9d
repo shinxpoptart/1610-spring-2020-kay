@@ -298,7 +298,6 @@
 /define:UNITY_TEAM_LICENSE
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-"Assets/KillerTriggerScript.cs"
 "Assets/scripts/CameraController.cs"
 "Assets/scripts/CharacterMover.cs"
 "Assets/scripts/colliderScript.cs"
@@ -309,6 +308,7 @@
 "Assets/scripts/IfStatements.cs"
 "Assets/scripts/ImageBehavior.cs"
 "Assets/scripts/IntData.cs"
+"Assets/scripts/KillerTriggerScript.cs"
 "Assets/scripts/lightController.cs"
 "Assets/scripts/MouseEvents.cs"
 "Assets/scripts/NewClass.cs"
@@ -316,5 +316,6 @@
 "Assets/scripts/rigidBodyForces.cs"
 "Assets/scripts/springController.cs"
 "Assets/scripts/SpriteController.cs"
+"Assets/scripts/TextBehavior.cs"
 "Assets/scripts/TrailController.cs"
 "Assets/scripts/TriggeringEvents.cs"

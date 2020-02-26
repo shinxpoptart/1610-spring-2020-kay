@@ -5,14 +5,16 @@ using UnityEngine;
 
 [CreateAssetMenu]
 
-public class FloatData : ScriptableObject
+public class FloatData : ScriptableObject //scriptable objects stay
 {
 
     public float value = 1f;
 
-    public void Changevalue(float number)
+    public void ChangeValue(float number)
     {
         value += number;
     }
 
 }
+
+//very important code

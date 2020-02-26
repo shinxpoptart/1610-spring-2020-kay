@@ -23,6 +23,7 @@
           <e p="rigidBodyForces.cs" t="Include" />
           <e p="springController.cs" t="Include" />
           <e p="SpriteController.cs" t="Include" />
+          <e p="TextBehavior.cs" t="Include" />
           <e p="TrailController.cs" t="Include" />
           <e p="TriggeringEvents.cs" t="Include" />
         </e>

@@ -6,4 +6,12 @@ using UnityEngine;
 public class IntData : ScriptableObject
 {
    public int value = 1;
+
+   public void ChangeValue(int number)
+   {
+      value += number; 
+         //adding value to a float
+   }
 }
+
+//int data has one data -> value 

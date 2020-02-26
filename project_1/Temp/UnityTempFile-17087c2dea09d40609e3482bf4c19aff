@@ -318,3 +318,4 @@
 "Assets/scripts/SpriteController.cs"
 "Assets/scripts/TrailController.cs"
 "Assets/scripts/TriggeringEvents.cs"
+"Assets/TextBehavior.cs"
