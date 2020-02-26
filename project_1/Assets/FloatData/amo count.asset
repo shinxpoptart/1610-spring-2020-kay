@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bc18455fee4644d62af053d67ef839a0, type: 3}
-  m_Name: Health
+  m_Name: amo count
   m_EditorClassIdentifier: 
-  value: 1
+  value: 1.1
