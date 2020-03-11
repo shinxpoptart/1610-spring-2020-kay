@@ -7,6 +7,8 @@
         <e p="scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
+          <e p="Collectible.cs" t="Include" />
+          <e p="CollectibleList.cs" t="Include" />
           <e p="colliderScript.cs" t="Include" />
           <e p="CollidersScript2.cs" t="Include" />
           <e p="colorChange.cs" t="Include" />
@@ -17,6 +19,7 @@
           <e p="IntData.cs" t="Include" />
           <e p="KillerTriggerScript.cs" t="Include" />
           <e p="lightController.cs" t="Include" />
+          <e p="ListAndLoops.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="NewClass.cs" t="Include" />
           <e p="PracticeScript.cs" t="Include" />
