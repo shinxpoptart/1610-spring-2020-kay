@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa130d5b75a7045f38903a7ea7be9b00, type: 3}
   m_Name: redcircle
   m_EditorClassIdentifier: 
-  powerLevel: 10
+  powerLevel: 200
   collectibleColor: {r: 1, g: 0, b: 0, a: 1}
-  collectibleSprite: {fileID: 0}
+  collectibleSprite: {fileID: 21300000, guid: d86ecd5d532754555bce2cbd0437e206, type: 3}

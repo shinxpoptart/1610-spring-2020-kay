@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Blue diamond
   m_EditorClassIdentifier: 
   powerLevel: 10
-  collectibleColor: {r: 1, g: 0, b: 0, a: 1}
-  collectibleSprite: {fileID: 0}
+  collectibleColor: {r: 0.097232126, g: 0.20236294, b: 0.8962264, a: 1}
+  collectibleSprite: {fileID: 21300000, guid: f092d07bbd64640debf050d0d981dd92, type: 3}

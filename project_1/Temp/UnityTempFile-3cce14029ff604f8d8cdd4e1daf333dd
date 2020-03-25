@@ -298,9 +298,11 @@
 /define:UNITY_TEAM_LICENSE
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
+"Assets/scripts/AI/NavAgentBehavior.cs"
 "Assets/scripts/CameraController.cs"
 "Assets/scripts/CharacterMover.cs"
 "Assets/scripts/Collectible.cs"
+"Assets/scripts/CollectibleList.cs"
 "Assets/scripts/colliderScript.cs"
 "Assets/scripts/CollidersScript2.cs"
 "Assets/scripts/colorChange.cs"
