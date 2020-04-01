@@ -306,6 +306,7 @@
 "Assets/scripts/colliderScript.cs"
 "Assets/scripts/CollidersScript2.cs"
 "Assets/scripts/colorChange.cs"
+"Assets/scripts/coroutines.cs"
 "Assets/scripts/FloatData.cs"
 "Assets/scripts/HaloScript.cs"
 "Assets/scripts/IfStatements.cs"

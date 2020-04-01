@@ -5,20 +5,20 @@ using UnityEngine.UI;
 
 [RequireComponent(typeof(Text))]
 public class TextBehavior : MonoBehaviour
-
 {
     private Text textObj;
-    public IntData dataObj;
-        
-    // Start is called before the first frame update
     void Start()
     {
         textObj = GetComponent<Text>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ChangeText(string message)
     {
-        textObj.text = dataObj.value.ToString();
+        textObj.text = message;
+    }
+
+    public void ChangeText(IntData obj)
+    {
+        textObj.text = obj.value.ToString();
     }
 }
