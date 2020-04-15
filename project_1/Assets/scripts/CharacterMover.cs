@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(CharacterController))]
 
@@ -13,6 +14,7 @@ public class CharacterMover : MonoBehaviour
     public float jumpForce = 20f;
     private int jumpCount = 0;
     public int jumpCountMax = 2;
+    public UnityEvent jumpEvent;
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -26,13 +28,13 @@ public class CharacterMover : MonoBehaviour
             jumpCount = 0;
         }
         controller.Move(positionDirection*Time.deltaTime);
-        positionDirection.x = Input.GetAxis("Vertical")*speed;
-        positionDirection.z = Input.GetAxis("Horizontal")*-speed;
+        positionDirection.x = Input.GetAxis("Horizontal")*speed;
+        positionDirection.z = Input.GetAxis("Vertical")*-speed;
 
         if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
         {
+            jumpEvent.Invoke();
             positionDirection.y = jumpForce;
-            jumpCount++;
         }
         
         positionDirection.y -= gravity;
