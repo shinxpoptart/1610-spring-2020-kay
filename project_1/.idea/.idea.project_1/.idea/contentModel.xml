@@ -16,6 +16,7 @@
           <e p="CollidersScript2.cs" t="Include" />
           <e p="colorChange.cs" t="Include" />
           <e p="coroutines.cs" t="Include" />
+          <e p="Flip.cs" t="Include" />
           <e p="floatData.cs" t="Include" />
           <e p="HaloScript.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />

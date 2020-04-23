@@ -12,8 +12,8 @@ public class CharacterMover : MonoBehaviour
     public float speed = 10f;
     public float gravity = 3f;
     public float jumpForce = 20f;
-    private int jumpCount = 0;
-    public int jumpCountMax = 2;
+    public int jumpCount = 1;
+    public int jumpCountMax = 3;
     public UnityEvent jumpEvent;
     void Start()
     {
@@ -22,10 +22,10 @@ public class CharacterMover : MonoBehaviour
     
     void Update()
     {
-        if (controller.isGrounded)
+        //if (controller.isGrounded)
         {
-            positionDirection.y = 0;
-            jumpCount = 0;
+            //positionDirection.y = 0;
+            //jumpCount = 0;
         }
         controller.Move(positionDirection*Time.deltaTime);
         positionDirection.x = Input.GetAxis("Horizontal")*speed;
